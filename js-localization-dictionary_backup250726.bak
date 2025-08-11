@@ -1,0 +1,159 @@
+### **Tavern Helper 번역 규칙**
+p-text:tavern-helper-extension-container:酒馆助手=태번 도우미
+p-text:tavern-helper-extension-container:扩展已启用=확장 프로그램이 활성화되었습니다
+p-text:tavern-helper-extension-container:扩展已禁用=확장 프로그램이 비활성화되었습니다
+
+# ### 내장 스크립트 이름 및 설명 번역 ###
+text:标签化: 随世界书、预设或链接配置自动开关正则、提示词条目=태그화: 월드 인포, 프리셋, 링크 설정에 따라 정규식/프롬프트 항목을 자동으로 활성화/비활성화합니다.
+text:样式加载: 像酒馆主题自定义 css 一样编写角色卡 css=스타일 로드: 실리 테마의 커스텀 CSS처럼 캐릭터 카드 CSS를 작성합니다.
+text:预设防误触=프리셋 클릭미스 방지
+text:资源预载: 提前缓存角色卡的插图=리소스 사전 로드: 캐릭터 카드의 삽화를 미리 캐시합니다.
+text:自动关闭前端卡不兼容选项=호환되지 않는 프론트엔드 카드 옵션 자동 비활성화
+text:自动开启角色卡局部正则=캐릭터 카드 로컬 정규식 자동 활성화
+
+
+# ### 텍스트 (일반) ###
+p-text:tavern-helper-extension-container:本扩展免费使用，禁止任何形式的商业用途=이 확장 프로그램은 무료로 사용할 수 있으며, 어떠한 형태의 상업적 이용도 금지됩니다.
+p-text:tavern-helper-extension-container:设置需要渲染的楼层数，从最新楼层开始计数。为0时，将渲染所有楼层=렌더링할 메시지 수를 설정합니다. 최신 메시지부터 계산하며, 0이면 모든 메시지를 렌더링합니다.
+p-text:tavern-helper-extension-container:折叠所有代码块，避免正则替换成前端代码时影响阅读=모든 코드 블록을 접어 정규식으로 교체된 프런트엔드 코드가 가독성을 해치는 것을 방지
+p-text:tavern-helper-extension-container:连接 VSCode / Cursor ，将代码修改实时同步到酒馆=VSCode / Cursor에 연결하여 코드 변경 사항을 실시간으로 실리에 동기화
+p-text:tavern-helper-extension-container:包括扩展使用方法及常见问题的解答=확장 프로그램 사용법 및 자주 묻는 질문에 대한 답변 포함
+p-text:tavern-helper-extension-container:启用后，将支持油猴酒馆HTML注入脚本的功能=활성화하면 Tampermonkey 실리 HTML 주입 스크립트 기능을 지원합니다
+
+p-text:settings-title-description:启用后，将支持=활성화되면
+p-text:settings-title-description:油猴酒馆HTML注入脚本=Tampermonkey 실리 HTML 주입 스크립트
+p-text:settings-title-description:的功能=기능이 지원됩니다
+
+p-text:tavern-helper-extension-container:作者：KAKAA，青空莉想做舞台少女的狗=제작자: KAKAA, 青空莉想做舞台少女的狗
+p-text:tavern-helper-extension-container:开启调试模式，将在控制台输出更多信息=디버그 모드를 켜면 콘솔에 더 많은 정보가 출력됩니다
+p-text:tavern-helper-extension-container:脚本可能存在风险，请确保安全后再运行=스크립트에 위험이 있을 수 있으니, 안전을 확인한 후 실행하세요.
+p-text:tavern-helper-extension-container:下载助手函数参考 (单文件)=도우미 함수 참고 다운로드 (단일 파일)
+p-text:tavern-helper-extension-container:下载助手函数参考 (分文件)=도우미 함수 참고 다운로드 (분할 파일)
+p-text:tavern-helper-extension-container:查看最新特性，检查并更新扩展=최신 기능 보기, 확장 프로그램 확인 및 업데이트
+p-text:tavern-helper-extension-container:管理和编辑所有类型的变量=모든 유형의 변수 관리 및 편집
+p-text:tavern-helper-extension-container:扩展内置的全局音频播放器=확장 프로그램에 내장된 전역 오디오 플레이어
+p-text:tavern-helper-extension-container:启用后，符合条件的代码块将被渲染=활성화하면 조건에 맞는 코드 블록이 렌더링됩니다
+p-text:tavern-helper-extension-container:取消代码高亮，加速渲染=코드 하이라이트를 취소하여 렌더링 속도 향상
+p-text:tavern-helper-extension-container:应用于酒馆所有聊天=실리의 모든 채팅에 적용
+p-text:tavern-helper-extension-container:编写脚本的参考文档=스크립트 작성을 위한 참고 문서
+p-text:tavern-helper-extension-container:刷新间隔 (毫秒)=새로고침 간격 (밀리초)
+p-text:tavern-helper-extension-container:下载酒馆命令参考=실리 명령어 참고 다운로드
+p-text:tavern-helper-extension-container:查看酒馆命令手册=실리 명령어 매뉴얼 보기
+p-text:tavern-helper-extension-container:启用油猴兼容模式=Tampermonkey 호환 모드 활성화
+p-text:tavern-helper-extension-container:应用于当前角色卡=현재 캐릭터 카드에 적용
+p-text:tavern-helper-extension-container:最新：Ver 3.2.12=최신: Ver 3.2.12
+p-text:tavern-helper-extension-container:启用酒馆弹窗报错=실리 팝업 오류 보고 활성화
+p-text:tavern-helper-extension-container:淡入淡出时间(秒)=페이드인/아웃 시간(초)
+p-text:tavern-helper-extension-container:查看助手文档=도우미 문서 보기
+p-text:tavern-helper-extension-container:刷新播放列表=재생 목록 새로고침
+p-text:tavern-helper-extension-container:启用渲染优化=렌더링 최적화 활성화
+p-text:tavern-helper-extension-container:启用代码折叠=코드 접기 활성화
+p-text:tavern-helper-extension-container:角色脚本库=캐릭터 스크립트 라이브러리
+p-text:tavern-helper-extension-container:全局脚本库=전역 스크립트 라이브러리
+p-text:tavern-helper-extension-container:扩展总开关=확장 프로그램 메인 스위치
+p-text:tavern-helper-extension-container:扩展已禁用=확장 프로그램이 비활성화됨
+p-text:tavern-helper-extension-container:+ 文件夹=+ 폴더
+p-text:tavern-helper-extension-container:+ 脚本=+ 스크립트
+p-text:tavern-helper-extension-container:变量管理器=변수관리자
+p-text:tavern-helper-extension-container:暂无脚本=스크립트 없음
+p-text:tavern-helper-extension-container:渲染深度=렌더링 깊이
+p-text:tavern-helper-extension-container:启用渲染器=렌더러 활성화
+p-text:tavern-helper-extension-container:扩展信息=확장 정보
+p-text:tavern-helper-extension-container:调试模式=디버그 모드
+p-text:tavern-helper-extension-container:编写参考=작성 참고자료
+p-text:tavern-helper-extension-container:监听地址=리스닝 주소
+p-text:tavern-helper-extension-container:使用方法=사용 방법
+p-text:tavern-helper-extension-container:允许监听=리스닝 허용
+p-text:tavern-helper-extension-container:实时监听=실시간 리스닝
+p-text:tavern-helper-extension-container:开发工具=개발 도구
+p-text:tavern-helper-extension-container:版本更新=버전 업데이트
+p-text:tavern-helper-extension-container:扩展文档=확장 프로그램 문서
+p-text:tavern-helper-extension-container:启用扩展=확장 활성화
+p-text:tavern-helper-extension-container:主设置=주 설정
+p-text:tavern-helper-extension-container:内置库=내장 라이브러리
+p-text:tavern-helper-extension-container:播放器=플레이어
+p-text:tavern-helper-extension-container:工具箱=툴박스
+p-text:tavern-helper-extension-container:脚本库=스크립트
+p-text:tavern-helper-extension-container:渲染器=렌더러
+p-text:tavern-helper-extension-container:구버전=구버전
+p-text:tavern-helper-extension-container:酒馆助手=태번 도우미
+p-text:tavern-helper-extension-container:音效=음향 효과
+p-text:tavern-helper-extension-container:音乐=음악
+p-text:tavern-helper-extension-container:导入=가져오기
+
+# ### 플레이스홀더 (placeholder) ###
+placeholder:搜索脚本...=스크립트 검색...
+
+# ### 툴팁 (title) ###
+title:下载提供给 VSCode/Cursor 的 TypeScript 类型声明文件, 既让 VSCode/Cursor 能提供代码提示, 也允许 ai 参考了解酒馆助手函数=VSCode/Cursor용 TypeScript 타입 선언 파일을 다운로드하여 코드 제안 기능을 활성화하고, AI가 태번 도우기 함수를 참고할 수 있도록 합니다
+title:下载你所用酒G版本及扩展所提供的酒馆命令列表, 可以让 ai 参考了解酒馆命令=사용 중인 실리 버전 및 확장에서 제공하는 명령어 목록을 다운로드하여 AI가 실리 명령어를 참고할 수 있도록 합니다
+title:批量开关文件夹内脚本=폴더 내 스크립트 일괄 켜기/끄기
+title:查看酒馆命令文档手册=실리 명령어 문서 매뉴얼 보기
+title:移动到角色脚本库=캐릭터 스크립트 라이브러리로 이동
+title:禁用Ambient播放器=앰비언트 플레이어 비활성화
+title:启用Ambient播放器=앰비언트 플레이어 활성화
+title:查看酒馆助手文档=태번 도우기 문서 보기
+title:禁用BGM播放器=BGM 플레이어 비활성화
+title:启用BGM播放器=BGM 플레이어 활성화
+title:管理音效链接=음향 효과 링크 관리
+title:管理音乐链接=음악 링크 관리
+title:批量管理=일괄 관리
+title:导出文件夹=폴더 내보내기
+title:删除文件夹=폴더 삭제
+title:编辑文件夹=폴더 편집
+
+# ### 버튼 (button) ###
+p-text:TavernHelper-button:移动到文件夹=폴더로 이동
+p-text:TavernHelper-button:更新=갱신
+p-text:TavernHelper-button:删除=삭제
+p-text:TavernHelper-button:导出=내보내기
+p-text:TavernHelper-button:退出=나가기
+p-text:TavernHelper-button:打开=열기
+p-text:TavernHelper-button:查看=보기
+
+
+# ### 누락 추가 ###
+p-text:all:新建脚本到=새 스크립트 생성 위치
+text:全局脚本库=글로벌 스크립트 
+text:角色脚本库=캐릭터 전용 스크립트
+p-text:all:新建脚本到=새 스크립트 생성 위치
+text:全局脚本库=글로벌 스크립트 
+text:角色脚本库=캐릭터 전용 스크립트
+p-text:all:导入到=다음 위치로 가져오기
+text:全局脚本=글로벌 스크립트 
+text:局部脚本=로컬 스크립트
+p-text:folder-create-dialog:创建新文件夹=새 폴더 만들기
+p-text:folder-create-dialog:文件夹名称=폴더 이름
+placeholder:请输入文件夹名称=폴더 이름을 입력하세요
+p-text:folder-create-dialog:文件夹图标=폴더 아이콘
+p-text:folder-create-dialog:选择颜色=색상 선택
+p-text:folder-create-dialog:选择图标=아이콘 선택
+p-text:folder-create-dialog:目标位置=대상 위치
+button:创建=생성
+p-text:popup-content:确定要删除文件夹=폴더
+p-text:popup-content:及其中的所有脚本吗？此操作不可撤销。=및 그 안의 모든 스크립트를 삭제하시겠습니까? 되돌릴 수 없습니다.
+
+p-text:popup-content:要导入的脚本=가져오려는 스크립트
+p-text:popup-content:与全局脚本库中的=가 글로벌 스크립트에 있는
+p-text:popup-content:与角色脚本库中的=가 캐릭터 스크립트에 있는
+p-text:popup-content:id 相同，是否要继续操作？=와 ID가 동일합니다. 계속 진행하시겠습니까?
+p-text:popup-content:确定要删除这个脚本吗？=이 스크립트를 정말 삭제하시겠습니까?
+button:新建脚本=새 스크립트
+button:覆盖原脚本=덮어쓰기
+
+p-text:script-editor:脚本编辑=스크립트 편집
+p-text:script-name:脚本名称=스크립트 이름
+p-text:script-content:脚本内容=스크립트 내용
+p-text:script-info:作者备注=작성자 비고
+p-text:variable-editor:变量列表=변수 목록
+p-text:variable-editor>small:绑定到脚本的变量，会随脚本一同导出=스크립트에 바인딩된 변수이며, 스크립트와 함께 내보내집니다.
+p-text:script-button-content:按钮触发=버튼 트리거
+p-text:script-button-content>small:需配合eventOnButton使用=eventOnButton과 함께 사용해야 합니다.
+placeholder:脚本的JavaScript代码=스크립트의 JavaScript 코드
+placeholder:此处填写作者想要在脚本信息中展示的内容，例如作者名、版本和注意事项等，支持简单的markdown和html=여기에 작성자가 스크립트 정보에 표시하고 싶은 내용(예: 작성자 이름, 버전, 주의사항 등)을 작성하세요. 간단한 markdown과 html 지원
+button:保存=저장
+button:取消=취소
+
+p-text:popup-content:此角色包含酒馆助手可用的嵌入式脚本，已导入至局部脚本库=이 캐릭터에는 태번 도우미에서 사용할 수 있는 임베디드(내장) 스크립트가 포함되어 있으며, 이미 캐릭터 스크립트 라이브러리에 가져와졌습니다.
+p-text:popup-content:您可以选择否，稍后在“酒馆助手-脚本库-局部脚本”中手动启用它们=아니오를 선택할 경우, 나중에 태번도우미→ 스크립트 → 캐릭터 스크립트 에서 수동으로 활성화할 수 있습니다
+p-text:popup-content:是否现在就启用它们？=지금 바로 활성화하시겠습니까?
